@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="webpage">
+    <output-path>$PROJECT_DIR$/out/artifacts/webpage</output-path>
+    <root id="root">
+      <element id="archive" name="webpage.jar">
+        <element id="module-output" name="webweak" />
+      </element>
+    </root>
+  </artifact>
+</component>

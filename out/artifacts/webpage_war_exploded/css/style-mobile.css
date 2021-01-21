@@ -1,0 +1,379 @@
+/*
+	Tapestry by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+body {
+	font-size: 9pt;
+	line-height: 1.25em;
+}
+
+#skel-panels-pageWrapper {
+	padding-top: 40px;
+}
+
+/* Header */
+
+#header-wrapper {
+}
+
+#header {
+	display: none;
+}
+
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+
+#titleBar
+{
+	background: #62573b;
+}
+
+	#titleBar .title a
+	{
+		display: block;
+		color: #fff;
+		text-align: center;
+		line-height: 44px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 1.4em;
+		font-weight: 700;
+	}
+	
+	#titleBar .title span
+	{
+		display: none;
+	}
+
+	#titleBar .toggle
+	{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 80px;
+		height: 60px;
+	}
+
+		#titleBar .toggle:before
+		{
+			content: '';
+			display: block;
+			width: 60px;
+			height: 40px;
+			border-radius: 4px;
+			position: absolute;
+			left: 5px;
+			top: 5px;
+		}
+
+		#titleBar .toggle:after
+		{
+			content: '';
+			display: block;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			left: 15px;
+			top: 15px;
+			background: url('images/mobileUI-site-nav-opener-bg.svg') 0px 0px no-repeat;
+			opacity: 1;
+		}
+
+		#titleBar .toggle:active:after
+		{
+			opacity: 1;
+		}
+
+#navPanel
+{
+	background: #48402a;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #888;
+	letter-spacing: 2px;
+	font-size: 1em;
+}
+
+	#navPanel .link
+	{
+		display: block;
+		color: #ddd;
+		text-decoration: none;
+		height: 44px;
+		line-height: 44px;
+		border: 0;
+		border-top: solid 1px #594f35;
+		padding: 0 1em 0 1em;
+	}
+	
+		#navPanel .link:first-child
+		{
+			border-top: 0;
+		}
+		
+		#navPanel .link.depth-0
+		{
+			font-weight: 600;
+			color: #fff;
+		}
+
+		#navPanel .indent-1 { display: inline-block; width: 1em; }
+		#navPanel .indent-2 { display: inline-block; width: 2em; }
+		#navPanel .indent-3 { display: inline-block; width: 3em; }
+		#navPanel .indent-4 { display: inline-block; width: 4em; }
+		#navPanel .indent-5 { display: inline-block; width: 5em; }
+		#navPanel .depth-0 { color: #fff; }
+
+
+/* Wrapper */
+
+#wrapper {
+	overflow: hidden;
+	padding: 2em 0em 0em 0em;
+}
+
+/* Page Wrapper */
+
+#page {
+}
+
+/* Banner */
+
+#banner {
+	overflow: hidden;
+}
+
+#banner .container {
+	background: #FFFFFF;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+}
+
+/* Content */
+
+#content {
+}
+
+#content h2 {
+	padding: 1em 0em 1em 0em;
+	font-size: 1.75em;
+}
+
+#content .subtitle {
+	padding: 0em 0em 1.25em 0em;
+	line-height: 120%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-weight: 300;
+	font-style: italic;
+	color: #7D7D7D;
+}
+
+#content img {
+	padding: 0em 0em 0.62em 0em;
+}
+
+#content a img {
+	display: block;
+	width: 100%;
+}
+
+#content .post {
+	padding: 0em 0em 1.87em 0em;
+}
+
+#content section {
+	padding: 0em 1.87em;
+}
+
+/* Sidebar1 */
+
+#sidebar1 {
+}
+
+#sidebar1 h2 {
+	padding: 1em 0em 1.5em 0em;
+	text-transform: none;
+	font-size: 1.75em;
+}
+
+#sidebar1 img {
+}
+
+#sidebar1 a img {
+}
+
+#sidebar1 section {
+	padding: 0em 1.87em;
+}
+
+
+/* Sidebar2 */
+
+#sidebar2 {
+}
+
+#sidebar2 h2 {
+	padding: 1em 0em 1.5em 0em;
+	text-transform: none;
+	font-size: 1.75em;
+}
+
+
+#sidebar2 section {
+	padding: 0em 1.87em;
+}
+
+
+#sidebar2 .sbox1 {
+	margin-bottom: 3.12em;
+}
+
+
+#sidebar2 .sbox2 {
+	margin-bottom: 3.12em;
+}
+
+#sidebar2 .sbox3 {
+}
+
+
+/** Footer Column Content */
+
+#footer-wrapper {
+}
+
+#footer-content {
+	overflow: hidden;
+	padding: 0em 0em 3.12em 0em;
+}
+
+#footer-content h2 {
+	padding: 0em 0em 1.50em 0em;
+	text-transform: none;
+	font-size: 1.75em;
+}
+
+#footer-content strong {
+	color: #766946 !important;
+}
+
+#footer-content section {
+	padding: 0em 1.87em 2em 1.87em;
+}
+
+
+#footer-content #box1 {
+}
+
+#footer-content #box2 {
+}
+
+#footer-content #box3 {
+	overflow: hidden;
+}
+
+
+/* Marketing */
+
+#marketing {
+	overflow: hidden;
+}
+
+#marketing .divider {
+}
+
+
+
+#marketing section {
+	padding: 0em 1.87em 2em 1.87em;
+}
+
+#marketing .title {
+	padding: 0em 0em 0.5em 0em;
+	font-size: 1.5em;
+}
+
+#marketing .subtitle {
+	padding: 0em 0em 1.25em 0em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#marketing a img {
+	display: block;
+	width: 100%;
+}
+
+
+/* Featured */
+
+#featured-area {
+	overflow: hidden;
+	margin-bottom: 1.87em;
+	padding: 0em 0em 1.87em 0em;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+#featured-area section {
+	padding: 0em 0em 1.25em 0em;
+}
+
+#featured-area .box-style {
+	overflow: hidden;
+	padding: 1.56em;
+	background: url(images/img07.png) repeat;
+}
+
+#featured-area .box-style h3 {
+	padding: 0em 0em 1.25em 0em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+#featured-area .box-style img {
+	float: left;
+	margin-right: 1.56em;
+}
+
+
+#featured-area .box-style a img {
+	display: block;
+	width: 40%;
+}
+
+/* Copyright */
+
+#copyright {
+	overflow: hidden;
+	padding: 1.87em 0em;
+}
+
+#copyright p {
+	text-align: center;
+}
+
+
+ul.style5 a img {
+	display: block;
+	width: 100%;
+}
+
+ul.style2 img {
+	float: left;
+	margin-right: 1.5em;
+}
+
+ul.style2 a img {
+	display: block;
+	width: 20%;
+}
+
+
